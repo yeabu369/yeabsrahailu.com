@@ -20,7 +20,6 @@ const Jumbotron: FC = () => {
         width={300}
         quality={100}
         priority
-        placeholder="blur"
       />
       <Box>
         <Heading
