@@ -30,7 +30,7 @@ const Page: FC = () => {
             <Heading as="h1" size="lg" color="white">
               Yeabsra Hailu
             </Heading>
-            <Text fontWeight="bold">Software Engineer</Text>
+            <Text fontWeight="bold">Computer Engineer</Text>
           </VStack>
         </Box>
       </HStack>
@@ -41,8 +41,8 @@ const Page: FC = () => {
     return (
       <Box className="article">
         <Text fontWeight="bold">
-          Computer Science Engineer having interest in web-designing and
-          development with an eye for detail.
+          Computer Engineer with a various interests such as programming, web
+          development and design.
         </Text>
       </Box>
     );
@@ -55,7 +55,7 @@ const Page: FC = () => {
           <Link
             py={2}
             px={4}
-            href="https://github.com/ghoshnirmalya"
+            href="https://github.com/yeabu369"
             rounded="sm"
             bg="#333"
             color="#fff"
@@ -72,7 +72,7 @@ const Page: FC = () => {
           <Link
             py={2}
             px={4}
-            href="https://www.linkedin.com/in/ghoshnirmalya/"
+            href="https://www.linkedin.com/in/yeabsra-hailu-7b5a19165/"
             rounded="sm"
             bg="#0e76a8"
             color="#fff"
