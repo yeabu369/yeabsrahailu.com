@@ -8,8 +8,8 @@
 <p align="center">
   <a href="https://twitter.com/NirmalyaGhosh_">
     <img
-      alt="Twitter: Nirmalya Ghosh"
-      src="https://img.shields.io/twitter/follow/NirmalyaGhosh_.svg?style=social"
+      alt="Twitter: Yeabsra Hailu"
+      src="https://img.shields.io/twitter/follow/hailuyeabsra.svg?style=social"
       target="_blank"
     />
   </a>

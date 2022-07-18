@@ -1,9 +1,9 @@
 {
   "private": false,
   "name": "portfolio",
-  "description": "Personal portfolio of Nirmalya Ghosh",
+  "description": "Personal portfolio of Yeabsra Hailu",
   "license": "MIT",
-  "author": "Nirmalya Ghosh <nirmalya.email@gmail.com>",
+  "author": "Yeabsra Hailu <yeabu.hailu@gmail.com>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

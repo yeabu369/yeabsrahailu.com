@@ -17,7 +17,7 @@ const Page: FC = () => {
         >
           <Image
             src={AvatarImage}
-            alt="Nirmalya Ghosh"
+            alt="Yeabsra Hailu"
             height={100}
             width={100}
             quality={100}
@@ -28,7 +28,7 @@ const Page: FC = () => {
         <Box>
           <VStack spacing={2} align="left">
             <Heading as="h1" size="lg" color="white">
-              Nirmalya Ghosh
+              Yeabsra Hailu
             </Heading>
             <Text fontWeight="bold">Software Engineer</Text>
           </VStack>

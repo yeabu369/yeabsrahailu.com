@@ -1,7 +1,7 @@
 const siteConfig = {
   details: {
-    title: "Nirmalya Ghosh",
-    tagLine: "Sofware Developer",
+    title: "Yeabsra Hailu",
+    tagLine: "Computer Engineer",
     description:
       "Articles and guides about JavaScript, CSS and Web Development from a software engineer.",
     url: "https://www.nirmalyaghosh.com",

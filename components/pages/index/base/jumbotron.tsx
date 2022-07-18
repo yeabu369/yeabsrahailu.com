@@ -21,7 +21,7 @@ const Jumbotron: FC = () => {
           bgGradient="linear(to-l, #79c2ff, #4a5888)"
           className="jumbotron-name-heading"
         >
-          Nirmalya Ghosh
+          Yeabsra Hailu
         </Heading>
       </Box>
       <Box>
@@ -34,14 +34,14 @@ const Jumbotron: FC = () => {
         >
           I&apos;m a{" "}
           <Box as="span" color="gray.300">
-            Developer
+            Computer Engineer
           </Box>
           , who likes{" "}
           <Box as="span" color="gray.300">
             Designing,{" "}
           </Box>{" "}
           <Box as="span" color="gray.300">
-            Writing
+            Building
           </Box>{" "}
           and{" "}
           <Box as="span" color="gray.300">
