@@ -17,10 +17,6 @@ const LINKS = [
     title: "Articles",
   },
   {
-    url: "/guides",
-    title: "Guides",
-  },
-  {
     url: "/about",
     title: "About",
   },
