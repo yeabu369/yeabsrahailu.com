@@ -45,7 +45,7 @@ const Jumbotron: FC = () => {
           </Box>{" "}
           and{" "}
           <Box as="span" color="gray.300">
-            Building Open Source
+            Hacking
           </Box>{" "}
           projects.
         </Heading>
