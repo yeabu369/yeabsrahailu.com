@@ -3,8 +3,8 @@ const siteConfig = {
     title: "Yeabsra Hailu",
     tagLine: "Computer Engineer",
     description:
-      "Articles and guides about JavaScript, CSS and Web Development from a software engineer.",
-    url: "https://www.yeabsrahailu.com",
+      "Articles and guides about Science, Business and Technology from a Computer Engineer.",
+    url: "https://yeabsrahailu.vercel.app",
   },
   assets: {
     avatar: "/images/common/seo-cover.png",
