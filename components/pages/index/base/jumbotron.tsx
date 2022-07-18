@@ -1,5 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
+import Image from "next/image";
 import React, { FC } from "react";
+import AvatarImage from "public/images/common/avatar.png";
 
 const Jumbotron: FC = () => {
   return (
@@ -11,6 +13,15 @@ const Jumbotron: FC = () => {
       pt={24}
       pb={12}
     >
+      <Image
+        src={AvatarImage}
+        alt="Yeabsra Hailu"
+        height={300}
+        width={300}
+        quality={100}
+        priority
+        placeholder="blur"
+      />
       <Box>
         <Heading
           as="h1"
