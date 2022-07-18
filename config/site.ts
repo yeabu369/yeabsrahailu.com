@@ -4,14 +4,14 @@ const siteConfig = {
     tagLine: "Computer Engineer",
     description:
       "Articles and guides about JavaScript, CSS and Web Development from a software engineer.",
-    url: "https://www.nirmalyaghosh.com",
+    url: "https://www.yeabsrahailu.com",
   },
   assets: {
     avatar: "/images/common/seo-cover.png",
-    favicon: "/images/common/favicon.svg",
+    favicon: "/images/common/favicon.ico",
   },
   socialLinks: {
-    twitter: "@nirmalyaghosh23",
+    twitter: "@hailuyeabsra",
   },
 };
 
