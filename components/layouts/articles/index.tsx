@@ -107,7 +107,9 @@ const Articles: FC<Props> = ({
           <Heading as="h1" size="lg" color="white">
             Articles
           </Heading>
-          <Text>Posts related to some of the latest technologies</Text>
+          <Text>
+            Posts related to some of the latest technologies and sciences
+          </Text>
         </VStack>
       );
     }
