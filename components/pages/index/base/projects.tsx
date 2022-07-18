@@ -89,7 +89,7 @@ const Projects: FC<Props> = ({
               bg="gray.900"
               color="white"
               rounded="sm"
-              href={project.url}
+              href={project.demoUrl}
               isExternal
               w="100%"
               _hover={{}}

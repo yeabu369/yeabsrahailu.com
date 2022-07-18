@@ -19,7 +19,7 @@ const Projects: FC<Props> = ({ projects = [] }) => {
           <Heading as="h1" size="lg" color="white">
             Projects
           </Heading>
-          <Text>Open Source Projects developed and available on Github</Text>
+          <Text>Projects developed and available on Github</Text>
         </VStack>
       </Box>
     );

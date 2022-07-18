@@ -35,11 +35,11 @@ const Page: FC<Props> = ({ articles = [], projects = [] }) => {
       <Box as="section" maxW="2xl" mx="auto" w="100%">
         <Jumbotron />
       </Box>
-      <Box as="section" maxW="2xl" mx="auto" w="100%">
-        <Articles articles={sortedArticles.slice(0, 10)} />
-      </Box>
       <Box as="section" maxW="2xl" mx="auto" w="100%" pb={8}>
         <Projects projects={projects.slice(0, 10)} />
+      </Box>
+      <Box as="section" maxW="2xl" mx="auto" w="100%">
+        <Articles articles={sortedArticles.slice(0, 10)} />
       </Box>
     </VStack>
   );
