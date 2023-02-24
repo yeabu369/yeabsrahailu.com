@@ -21,13 +21,13 @@
     "title": "Adulis - Digital Asset Ethiopia Exchange",
     "description": "A centralized crypto exchange for Ethiopians to trade digital assets.",
     "url": "https://github.com/yeabu369/adax",
-    "demoUrl": "https://dax.adulis.app"
+    "demoUrl": "https://adax.vercel.app"
   },
   {
     "title": "Adulis - Ethiopian Stock Exchange",
     "description": "A centralized stock exchange for Ethiopians to trade tokenized stocks.",
     "url": "https://github.com/yeabu369/adax/tree/adax-stock-market",
-    "demoUrl": "https://adulis.app"
+    "demoUrl": "https://adax-6lkk2nrf6-yeabu369.vercel.app/"
   },
   {
     "title": "Robotic Paint Tinting Machine",
