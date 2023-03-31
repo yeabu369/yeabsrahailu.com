@@ -1,5 +1,11 @@
 [
   {
+    "title": "NeuroMind",
+    "description": "An AI Assistant built with GPT-4",
+    "url": "https://github.com/yeabu369/NeuroMind",
+    "demoUrl": "https://neuromind-production.up.railway.app/"
+  },
+  {
     "title": "Afrovalley Trade Platform",
     "description": "Marketplace for Farmers and Buyers",
     "url": "https://gitlab.com/yeabu.hailu/afrovalley.frontend",
