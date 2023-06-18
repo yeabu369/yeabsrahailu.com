@@ -44,7 +44,7 @@ const Jumbotron: FC = () => {
         >
           I&apos;m a{" "}
           <Box as="span" color="gray.300">
-            Computer Engineer
+            Full Stack Developer
           </Box>
           , who likes{" "}
           <Box as="span" color="gray.300">

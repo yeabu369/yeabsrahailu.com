@@ -1,9 +1,9 @@
 const siteConfig = {
   details: {
     title: "Yeabsra Hailu",
-    tagLine: "Computer Engineer",
+    tagLine: "Full Stack Developer",
     description:
-      "Articles and guides about Science, Business and Technology from a Computer Engineer.",
+      "Articles and guides about Science, Business and Technology from a Full Stack Developer.",
     url: "https://yeabsrahailu.vercel.app",
   },
   assets: {
