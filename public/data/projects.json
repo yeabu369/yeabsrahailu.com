@@ -1,6 +1,12 @@
 [
   {
-    "title": "Payment Microservice With Spring",
+    "title": "Oasis Ecommerce Store",
+    "description": "A spring microservices based ecommerce store API",
+    "url": "https://yeabsrahailu.vercel.app/articles/oasis-ecommerce-store",
+    "demoUrl": "https://oasis-ecommerce-store.vercel.app"
+  },
+  {
+    "title": "Payment Service With Spring",
     "description": "A credit card payment service using Spring Boot",
     "url": "https://github.com/Oasis-LLC/payment-microservice",
     "demoUrl": "https://payment-microservice-production.up.railway.app/cards"
@@ -13,7 +19,7 @@
   },
   {
     "title": "Afrovalley Trade Platform",
-    "description": "Marketplace for Farmers and Buyers",
+    "description": "Coffee Trade Marketplace for Farmers and Buyers",
     "url": "https://gitlab.com/yeabu.hailu/afrovalley.frontend",
     "demoUrl": "https://afrovalley-frontend.vercel.app"
   },
