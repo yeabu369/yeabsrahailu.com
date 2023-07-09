@@ -8,7 +8,6 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect } from "react";
 import "focus-visible/dist/focus-visible";
-import Loglib from "@loglib/tracker/react";
 
 const Layout = dynamic(
   () => import(/* webpackChunkName: "Layouts" */ "components/layouts")
@@ -57,12 +56,6 @@ const PortfolioApp = ({ Component, pageProps }: AppProps) => {
       />
       <Navbar />
       <Component {...pageProps} />
-      <Loglib
-        config={{
-          id: "yeabsrahailu",
-          host: "https://www.loglib.io",
-        }}
-      />
     </Layout>
   );
 };
