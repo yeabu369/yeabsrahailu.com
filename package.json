@@ -17,6 +17,7 @@
     "@chakra-ui/react": "^1.8.9",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@loglib/tracker": "^0.4.3",
     "@opentelemetry/api": "^1.4.1",
     "contentlayer": "^0.2.9",
     "dayjs": "^1.11.9",

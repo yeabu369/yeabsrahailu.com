@@ -14,6 +14,9 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@17.0.62)(react@17.0.2)
+  '@loglib/tracker':
+    specifier: ^0.4.3
+    version: 0.4.3(react@17.0.2)
   '@opentelemetry/api':
     specifier: ^1.4.1
     version: 1.4.1
@@ -1389,6 +1392,14 @@ packages:
     dependencies:
       jsbi: 4.3.0
       tslib: 2.6.0
+    dev: false
+
+  /@loglib/tracker@0.4.3(react@17.0.2):
+    resolution: {integrity: sha512-IbzS0QW8jl/h48gJ+kuQPZMWht8zfmwmtiKwDKYnsebkrOG+faYx077RfQkhx+Wj7HCQokUjN5uB5jv6AvwAxA==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /@mdx-js/esbuild@2.3.0(esbuild@0.13.15):
