@@ -1,6 +1,6 @@
 import { Box, VStack, Link } from "@chakra-ui/react";
 import { FC, useState } from "react";
-import NextImage from "next/legacy/image";
+import NextImage from "next/image";
 
 interface IProps {
   src: string;
@@ -29,9 +29,13 @@ const Image: FC<IProps> = ({ src, alt, height, width }) => {
             alt={alt}
             height={height}
             width={width}
-            layout="responsive"
             className={loaded ? "unblur" : ""}
             onLoadingComplete={() => setLoaded(true)}
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
           />
         </Box>
         <Box fontSize="sm" p={2} as="span">

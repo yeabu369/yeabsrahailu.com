@@ -1,5 +1,5 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React, { FC } from "react";
 import AvatarImage from "public/images/common/avatar.png";
 
@@ -20,6 +20,10 @@ const Jumbotron: FC = () => {
         width={300}
         quality={100}
         priority
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+        }}
       />
       <Box>
         <Heading

@@ -1,5 +1,5 @@
 import { Box, Heading, HStack, Link, Text, VStack } from "@chakra-ui/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AvatarImage from "public/images/common/avatar.png";
 import { FC } from "react";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
@@ -23,6 +23,10 @@ const Page: FC = () => {
             quality={100}
             priority
             placeholder="blur"
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
           />
         </Box>
         <Box>
