@@ -66,15 +66,13 @@ const Guides: FC<Props> = ({ guides = [] }) => {
     return sortedGuides.map((guide: Guide) => {
       return (
         <Box key={guide.slug}>
-          <Link href={`/guides/${guide.slug}`}>
-            <a>
-              <Box>
-                <VStack spacing={1} align="left">
-                  {titleNode(guide.title)}
-                  {descriptionNode(guide.description)}
-                </VStack>
-              </Box>
-            </a>
+          <Link passHref href={`/guides/${guide.slug}`}>
+            <Box>
+              <VStack spacing={1} align="left">
+                {titleNode(guide.title)}
+                {descriptionNode(guide.description)}
+              </VStack>
+            </Box>
           </Link>
         </Box>
       );

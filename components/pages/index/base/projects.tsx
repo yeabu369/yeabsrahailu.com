@@ -27,7 +27,7 @@ const Projects: FC<Props> = ({
     if (hideViewAllLinksNode) return false;
 
     return (
-      <Link href="/projects" passHref>
+      <Link href="/projects" passHref legacyBehavior>
         <ChakraLink
           p={2}
           href="/projects"

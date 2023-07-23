@@ -6,13 +6,13 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/NirmalyaGhosh_">
+  <Link href="https://twitter.com/HailuYeabsra">
     <img
       alt="Twitter: Yeabsra Hailu"
       src="https://img.shields.io/twitter/follow/hailuyeabsra.svg?style=social"
       target="_blank"
     />
-  </a>
+  </Link>
 </p>
 
 This is a boilerplate for building portfolio applications using Next.js.

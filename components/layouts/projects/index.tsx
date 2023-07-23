@@ -1,4 +1,12 @@
-import { Box, Button, Grid, Heading, Text, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Grid,
+  Heading,
+  Text,
+  VStack,
+  Link,
+} from "@chakra-ui/react";
 import { FC, useState } from "react";
 import Project from "types/project";
 
@@ -66,7 +74,11 @@ const Projects: FC<Props> = ({ projects = [] }) => {
               borderWidth={1}
               borderColor="gray.700"
             >
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <Link
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Box p={8}>
                   <VStack
                     spacing={4}
@@ -80,7 +92,7 @@ const Projects: FC<Props> = ({ projects = [] }) => {
                     </VStack>
                   </VStack>
                 </Box>
-              </a>
+              </Link>
             </Box>
           );
         })}

@@ -47,7 +47,7 @@ const Articles: FC<Props> = ({
 
   const viewAllLinksNode = () => {
     return (
-      <Link href="/articles" passHref>
+      <Link legacyBehavior href="/articles" passHref>
         <_Link
           p={2}
           href="/articles"
@@ -172,10 +172,11 @@ const Articles: FC<Props> = ({
       if (!article.slug) {
         return (
           <Box key={index}>
-            <a
+            <Link
               href={article.url}
               target="_blank"
               rel="nofollow noopener noreferrer"
+              passHref
             >
               <Box>
                 <VStack spacing={1} align="left">
@@ -184,14 +185,14 @@ const Articles: FC<Props> = ({
                   {descriptionNode(article.description)}
                 </VStack>
               </Box>
-            </a>
+            </Link>
           </Box>
         );
       }
 
       return (
         <Box key={index}>
-          <Link href={`/articles/${article.slug}`}>
+          <Link legacyBehavior href={`/articles/${article.slug}`}>
             <a>
               <Box>
                 <VStack spacing={1} align="left">
