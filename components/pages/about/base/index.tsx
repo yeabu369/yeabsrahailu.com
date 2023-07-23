@@ -1,5 +1,5 @@
 import { Box, Heading, HStack, Link, Text, VStack } from "@chakra-ui/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import AvatarImage from "public/images/common/avatar.png";
 import { FC } from "react";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";

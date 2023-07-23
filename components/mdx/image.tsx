@@ -1,6 +1,6 @@
 import { Box, VStack, Link } from "@chakra-ui/react";
 import { FC, useState } from "react";
-import NextImage from "next/image";
+import NextImage from "next/legacy/image";
 
 interface IProps {
   src: string;

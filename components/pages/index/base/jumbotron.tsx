@@ -1,5 +1,5 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React, { FC } from "react";
 import AvatarImage from "public/images/common/avatar.png";
 
