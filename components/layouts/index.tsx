@@ -5,7 +5,7 @@ import React, { FC, ReactNode } from "react";
 export const customTheme = extendTheme({
   config: {
     initialColorMode: "dark",
-    useSystemColorMode: false,
+    useSystemColorMode: true,
   },
   fonts: {
     heading: "'Open Sans', sans-serif",
