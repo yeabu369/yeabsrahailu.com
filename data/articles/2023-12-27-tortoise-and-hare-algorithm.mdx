@@ -1,0 +1,106 @@
+---
+date: 2023-12-27T17:07:00-06:00
+title: Linked List Cycle
+tags:
+  - function
+  - programming
+  - functional
+description: Finding cycles in a Linked List
+slug: linked-list-cycle
+lastmod: 2023-12-27T17:07:00-06:00
+categories:
+  - list
+  - linked list
+  - algorithm
+  - data structure
+keywords:
+  - cycle
+  - linked list
+draft: true
+---
+
+#### [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
+
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that tail's `next` pointer is connected to. **Note that `pos` is not passed as a parameter**.
+
+Return `true` *if there is a cycle in the linked list*. Otherwise, return `false`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
+
+**Input:** head = [3,2,0,-4], pos = 1
+**Output:** true
+**Explanation:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
+
+**Input:** head = [1,2], pos = 0
+**Output:** true
+**Explanation:** There is a cycle in the linked list, where the tail connects to the 0th node.
+
+**Example 3:**
+
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
+
+**Input:** head = [1], pos = -1
+**Output:** false
+**Explanation:** There is no cycle in the linked list.
+
+**Constraints:**
+
+- The number of the nodes in the list is in the range `[0, 104]`.
+- `-105 <= Node.val <= 105`
+- `pos` is `-1` or a **valid index** in the linked-list.
+
+**Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
+
+---
+
+## Understanding the Problem
+
+The problem, titled “Linked List Cycle” and classified as easy, is a common question in data structures and algorithms. It asks to determine if a given linked list has a cycle in it. A cycle in a linked list means there is some node in the list that can be reached again by continuously following the `next` pointer.
+
+## Matching the Problem Group to a Solution Group or Pattern
+
+This problem falls under the category of linked list problems and specifically deals with the detection of cycles within a linked list. The solution pattern for this problem is often associated with Floyd’s Cycle-Finding Algorithm, also known as the “tortoise and the hare” algorithm.
+
+## Plan of Action to Solve the Problem Using Floyd’s Cycle Finding Algorithm
+
+The plan to solve this problem involves using two pointers, one slow (the tortoise) and one fast (the hare). The slow pointer moves one step at a time while the fast pointer moves two steps at a time. If there is a cycle in the list, the fast pointer will eventually meet the slow pointer again. If there is no cycle, the fast pointer will reach the end of the list.
+
+## Implement Code in Java
+
+Here is a simple implementation of the solution in Java:
+
+```java
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return false;
+        }
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while (slow != fast) {
+            if (fast == null || fast.next == null) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
+    }
+}
+```
+
+## Review Implementation
+
+In the code above, we first check if the list is empty or has only one node. If so, we return false as there can’t be a cycle. We then initialize our slow and fast pointers. We enter a loop where we move our slow pointer one step and our fast pointer two steps at a time. If at any point, the fast pointer meets the slow pointer, we return true indicating a cycle. If the fast pointer reaches the end of the list, we return false indicating no cycle.
+
+## Evaluate Results
+
+The algorithm works as expected and solves the problem efficiently. It runs in O(n) time complexity, where n is the number of nodes in the list, and uses O(1) space, thus answering the follow-up question as well.
