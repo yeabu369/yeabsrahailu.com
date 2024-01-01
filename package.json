@@ -22,6 +22,7 @@
     "@loglib/tracker": "^0.4.3",
     "@loglib/ui": "^0.5.3",
     "@opentelemetry/api": "^1.4.1",
+    "@vercel/analytics": "^1.1.1",
     "contentlayer": "^0.2.9",
     "dayjs": "^1.11.9",
     "esbuild": "0.13.15",

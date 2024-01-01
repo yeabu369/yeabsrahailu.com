@@ -1,5 +1,5 @@
-import { Box } from "@chakra-ui/react";
 import siteConfig from "config/site";
+import { Box } from "@chakra-ui/react";
 import { initGA } from "lib/google-analytics";
 import isProduction from "lib/is-production";
 import { NextSeo } from "next-seo";
@@ -8,7 +8,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect } from "react";
 import "focus-visible/dist/focus-visible";
-import Loglib from "@loglib/tracker/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Layout = dynamic(
   () => import(/* webpackChunkName: "Layouts" */ "components/layouts")
@@ -57,12 +57,7 @@ const PortfolioApp = ({ Component, pageProps }: AppProps) => {
       />
       <Navbar />
       <Component {...pageProps} />
-      <Loglib
-        config={{
-          id: "yeabsrahailu",
-          host: "https://www.loglib.io",
-        }}
-      />
+      <Analytics />
     </Layout>
   );
 };
