@@ -34,7 +34,7 @@ const Page: FC = () => {
             <Heading as="h1" size="lg" color="white">
               Yeabsra Hailu
             </Heading>
-            <Text fontWeight="bold">Software Engineer</Text>
+            <Text fontWeight="bold"> Full Stack Engineer (FSE)</Text>
           </VStack>
         </Box>
       </HStack>
@@ -45,8 +45,8 @@ const Page: FC = () => {
     return (
       <Box className="article">
         <Text fontWeight="bold">
-          Software Engineer with a various interests such as programming, web
-          development and design.
+          Full Stack Engineer (FSE) with a various interests such as
+          programming, web development and design.
         </Text>
       </Box>
     );

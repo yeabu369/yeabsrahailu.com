@@ -48,20 +48,23 @@ const Jumbotron: FC = () => {
         >
           I&apos;m a{" "}
           <Box as="span" color="gray.300">
-            Software Engineer
+            Full Stack Engineer (FSE)
           </Box>
           , who loves{" "}
           <Box as="span" color="gray.300">
             Designing,{" "}
           </Box>{" "}
           <Box as="span" color="gray.300">
-            Building
+            Building,{" "}
+          </Box>{" "}
+          <Box as="span" color="gray.300">
+            Engineering
           </Box>{" "}
           and{" "}
           <Box as="span" color="gray.300">
             Hacking
           </Box>{" "}
-          projects.
+          products.
         </Heading>
       </Box>
     </VStack>
