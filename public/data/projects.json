@@ -6,12 +6,6 @@
     "demoUrl": "https://yeabsrahailu.vercel.app/articles/oasis-ecommerce-store"
   },
   {
-    "title": "Payment Service With Spring",
-    "description": "A credit card payment service using Spring Boot",
-    "url": "https://github.com/Oasis-LLC/payment-microservice",
-    "demoUrl": "https://payment-microservice-production.up.railway.app/cards"
-  },
-  {
     "title": "NeuroMind",
     "description": "An AI Assistant built with GPT-4",
     "url": "https://github.com/yeabu369/NeuroMind",
@@ -52,5 +46,11 @@
     "description": "A Robotic equipment to tint paint and mix",
     "url": "https://github.com/yeabu369/color-tinter-server",
     "demoUrl": "https://color-tinter.vercel.app"
+  },
+  {
+    "title": "Payment Service With Spring",
+    "description": "A credit card payment service using Spring Boot",
+    "url": "https://github.com/Oasis-LLC/payment-microservice",
+    "demoUrl": "https://payment-microservice-production.up.railway.app/cards"
   }
 ]
