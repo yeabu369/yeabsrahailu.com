@@ -3,6 +3,13 @@ import { css } from "@emotion/react";
 const generalStyles = css`
   html {
     scroll-behavior: smooth;
+  }
+
+  header {
+    zoom: 75%;
+  }
+
+  main {
     zoom: 50%;
   }
 
