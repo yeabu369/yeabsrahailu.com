@@ -3,6 +3,7 @@ import { css } from "@emotion/react";
 const generalStyles = css`
   html {
     scroll-behavior: smooth;
+    zoom: 50%;
   }
 
   .jumbotron-name-heading {
